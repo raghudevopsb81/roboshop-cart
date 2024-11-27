@@ -1,4 +1,4 @@
-name: Cart CI Pipeline
+name: Main Branch Pipeline
 on:
   push:
     branches:
