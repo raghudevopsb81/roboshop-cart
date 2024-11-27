@@ -1,6 +1,6 @@
 name: Cart CI Pipeline
 on: [push]
-run-name: ${{ github.head_ref }}
+run-name: ${{ github.head_ref }} - 1
 jobs:
   build:
     runs-on: self-hosted
