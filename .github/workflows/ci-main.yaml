@@ -6,5 +6,7 @@ on:
       - 'main'
 run-name: ${{ github.sha }} | ${{ github.event.head_commit.message }}
 jobs:
-  call-workflow:
+  ci-step:
     uses: raghudevopsb81/github-reusable-actions/.github/workflows/ci-main.yaml@main
+    with:
+      componentName: cart
